@@ -50,6 +50,6 @@ function showsub()
 {
     let numerosub = document.getElementById("numerosub").value;
     let numerosub2 = document.getElementById("numerosub2").value;
-    let numero3 = parseFloat(numeromult) - parseFloat(numeromult2);
+    let numero3 = parseFloat(numerosub) - parseFloat(numerosub2);
     document.getElementById("resultadosub").innerHTML = "Resultado: " + numero3;
 }
