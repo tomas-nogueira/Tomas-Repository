@@ -2,7 +2,7 @@ document.addEventListener( "click" , showcolor );
 
 document.getElementById("botao").addEventListener( "click", showname );
 
-document.getElementById("botao2").addEventListener("click", shownumber);
+document.getElementById("botao-soma").addEventListener("click", shownumber);
 
 function showcolor ()
 {
