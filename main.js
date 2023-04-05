@@ -24,3 +24,13 @@ function shownumber()
     document.getElementById("resultado").innerHTML = "Resultado: " + numero3;
 }
 
+document.getElementById("botao-div").addEventListener("click", showdiv);
+
+function showdiv()
+{
+    let numerodiv = document.getElementById("numerodiv").value;
+    let numerodiv2 = document.getElementById("numerodiv2").value;
+    let numero3 = parseFloat(numerodiv) / parseFloat(numerodiv2);
+    document.getElementById("resultadodiv").innerHTML = "Resultado: " + numero3;
+}
+
